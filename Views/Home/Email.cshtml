@@ -1,0 +1,10 @@
+﻿@model Autologinwithcookies.Models.UserModel
+
+<form method="POST" asp-action="Email" enctype="multipart/form-data">
+	<div class="form-group">
+		<label asp-for="Email" class="control-label"><</label>
+		<input asp-for="Email" type="text" class="form-control" />
+		<span asp-validation-for="Email" class="text-danger"></span>
+
+	</div>
+	</form>
